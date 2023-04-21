@@ -59,8 +59,6 @@ walker create_familytree {
 }
 
 
-
-//rrrrrrrrrrrrrrr
 walker male_lists{
     has anchor male_list=[];
     root: take-->node::family_root;
@@ -78,7 +76,7 @@ walker male_lists{
 
 }
 
-//rrrrrrrrrrrrrr
+
 walker movie{
     has anchor ml=[];
     has ppl=[];
@@ -119,7 +117,3 @@ walker movie{
         report ml;
     }
 }
-
-
-
-
