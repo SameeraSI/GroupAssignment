@@ -1,1 +1,58 @@
-
+{
+    "families": [
+        {
+            "family_name": "Jayasinghe Arachchilage",
+            "uid": "0x1"
+        },
+        {
+            "family_name": "Karavitage",
+            "uid": "0x2"
+        }
+    ],
+    "members": [
+        {
+            "uid": "0x1",
+            "family_id": "0x1",
+            "name": "Sandani Munasinghe",
+            "date_of_birth": "1998-07-11",
+            "profession": "Biomedical Engineer",
+            "parents": {
+                "father": "0x4",
+                "mother": "0x5"
+            },
+            "children": [],
+            "spouse": null,
+            "favourite_movie_catagory":"Romance",
+            "gender": "female"
+        
+        },
+        {
+            "uid": "0x2",
+            "family_id": "0x1",
+            "name": "Ramesh Akalanka",
+            "date_of_birth": "2002-03-09",
+            "profession": "Undergraduate",
+            "parents":{
+                "father": "0x4",
+                "mother": "0x5"
+            },              
+            "children": [],
+            "spouse": null,
+            "favourite_movie_catagory":"Animation",
+            "gender": "Male"
+        },
+        { 
+            "uid": "0x3",
+            "family_id": "0x1",
+            "name": "Tharusha Isuranga",
+            "date_of_birth": "2004-09-19",
+            "profession": "Student",
+            "parents":{
+                "father": "0x4",
+                "mother": "0x5"
+            },         
+            "children": [],
+            "spouse": null,
+            "favourite_movie_catagory":"Adventure",
+            "gender": "Male"
+        },
