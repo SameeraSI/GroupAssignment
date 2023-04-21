@@ -17,6 +17,7 @@ node person {
     has spouse;
     has favourite_movie_catagory;
     
+    
 }
 node family_root {
     has id;
