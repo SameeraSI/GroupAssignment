@@ -16,16 +16,6 @@ node person {
     has children;
     has spouse;
     has favourite_movie_catagory;
-    has cars;
-    has f;
-    
-
-    has age;
-    has days_to_birthday;
-
-
- 
-
     
 }
 node family_root {
