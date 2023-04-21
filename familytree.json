@@ -56,3 +56,64 @@
             "favourite_movie_catagory":"Adventure",
             "gender": "Male"
         },
+        {
+            "uid": "0x4",
+            "family_id": "0x1",
+            "name": "Amarabandu Rupasinghe",
+            "date_of_birth": "1960-06-01",
+            "profession": "Politician",
+            "parents": null,
+            "children": [
+                "0x1",
+                "ox2",
+                "0x3"
+            ],
+            "spouse": "0x5",
+            "favourite_movie_catagory":"Action",
+            "gender": "Male"
+        },
+        {
+            "uid": "0x5",
+            "family_id": "0x2",
+            "name": "Rupawathi wirasekara",
+            "date_of_birth": "1957-03-12",
+            "profession": "Nurse",
+            "parents": {
+                "father": "0x6",
+                "mother": "0x7"
+            },
+            "children":[
+                "0x1",
+                "ox2",
+                "0x3"
+            ],
+            "spouse": "0x4",
+            "favourite_movie_catagory":"Romance",
+            "gender": "Female"
+        },
+        {
+            "uid": "0x6",
+            "family_id": "0x2",
+            "name": "Appuhami",
+            "date_of_birth": "1932-04-16",
+            "profession": null,
+            "parents": null,
+            "children": "0x5",
+            "spouse": "0x7",
+            "favourite_movie_catagory":"Adventure",
+            "gender": "Male"
+        },
+        {
+            "uid": "0x7",
+            "family_id": "0x2",
+            "name": "Tikiri Menike",
+            "date_of_birth": "1936-08-19",
+            "profession": null,
+            "parents": null,
+            "children": "0x5",
+            "spouse": "0x6",
+            "favourite_movie_catagory":"Adventure",
+            "gender": "Female"
+        }
+    ]
+}
