@@ -3,8 +3,8 @@ This repository contains the code for our Jaseci group assignment. Jaseci is a f
 
 
 # Team Members
-180367E - P.V.P.Madhuwantha
-180182G- S.H.Galadeniya
-180393E - I.D.Meegasthanne
-180583L- S.I.Senarathna
-180324V - P. R. U. Kawmadie
+180367E - P.V.P.Madhuwantha <br>
+180182G- S.H.Galadeniya <br>
+180393E - I.D.Meegasthanne <br>
+180583L- S.I.Senarathna <br>
+180324V - P. R. U. Kawmadie <br>
