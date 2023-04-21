@@ -37,7 +37,6 @@ walker create_familytree {
                 parents = member["parents"],
                 children = member["children"],
                 spouse = member["spouse"],
-                f=member["f"],
                 favourite_movie_catagory = member["favourite_movie_catagory"]
                 
             );
