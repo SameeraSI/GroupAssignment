@@ -25,34 +25,60 @@ walker create_familytree {
                 filtered_members.list::append(member);
             }
         }
+        for member in filtered_members {
+            family_member = spawn here +[member]+> node::person(
+                id = member["uid"],
+                family_id = member["family_id"],
+                name = member["name"],
+                date_of_birth = member["date_of_birth"],
+                profession = member["profession"],
+                gender = member["gender"],
+                deceased = member["deceased"],
+                parents = member["parents"],
+                children = member["children"],
+                spouse = member["spouse"],
+                f=member["f"],
+                favourite_movie_catagory = member["favourite_movie_catagory"]
+                
+            );
+            famly_members.list::append(family_member);
+        }
+    }
 
-//sssssssssssssssssssssssssss
+    with exit {
+        for member_1 in famly_members {
+            for member_2 in famly_members {
+                if (member_1.id  == member_2.id): continue;
+                if (member_1.spouse == member_2.id and member_2.spouse == member_1.id) {
+                    member_1 +[married]+> member_2;
+                }
+                if (member_1.id in member_2.children): member_1 +[child]+> member_2;
+            }
+        }
+    }
+}
 
 
 
+//rrrrrrrrrrrrrrr
+walker male_lists{
+    has anchor male_list=[];
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    person {
+        if (here.gender=="Male"){
+        male_list.list::append(here.name);}
+
+    }
+    with exit{
+        report male_list;
+    }
 
 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//ssssssssssssssssssssssssssssssss
+//rrrrrrrrrrrrrr
 walker movie{
     has anchor ml=[];
     has ppl=[];
