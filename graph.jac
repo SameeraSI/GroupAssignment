@@ -15,9 +15,9 @@ node person {
     has parents;
     has children;
     has spouse;
-    has favourite_movie_catagory;
-    
-    
+    has favourite_movie_catagory;    
+    has age;
+    has days_to_birthday;
 }
 node family_root {
     has id;
@@ -29,5 +29,5 @@ graph family_tree {
     has anchor family_root;
     spawn {
         family_root = spawn node::family_root;
-    }
+    }
 }
